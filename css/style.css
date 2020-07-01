@@ -1,0 +1,39 @@
+.header{
+	font-size: 20px;
+	line-height: 1.5;/*высота текста*/
+	margin-bottom: 60px;
+}
+.header span{
+	display: block;
+}
+.section{
+	padding: 30px;
+}
+.form-header,.section-header{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.form{
+	border: 5px solid #2727d9;
+	padding: 30px 20px ; 
+}
+.form-btn{
+	background-color: #2727d9;
+	margin: 10px auto;
+}
+.form input{
+	margin-bottom: 12px;
+} 
+.photo{
+	width: 80px;
+	height: 80px;
+}
+.features{
+	margin: 60px auto;
+}
+.features-text{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 300;
+}
