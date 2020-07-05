@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 		
-		<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(65312527, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/65312527" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+		<!-- Yandex.Metrika counter --> <script > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(65312527, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/65312527" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -74,9 +74,9 @@
 								<h2 class="main-form-header">Для расчета точной стоимости <br> <strong>закажите выезд замерщика</strong></h2>
 
 								<form action="#">
-									<label for="#">Ваше имя</label>
-									<input class="main-form-input" type="text">
-									<label for="#">Номер телефона</label>
+									<label for="name1">Ваше имя</label>
+									<input id = "name1" class="main-form-input" type="text">
+									<label for="phone1" id = "phone1" Номер телефона</label>
 									<input class="main-form-input" type="text">
 									<button class="main-form-btn button" type="submit">оставьте заявку</button>
 									<small>Подарок в день обращения</small>
@@ -98,7 +98,7 @@
 					<div class="features-block">
 						<div class="features-img">
 							<picture>
-								<source class="small-img" srcset="img/features/candy.svg" type="image/">
+								<source class="small-img" srcset="img/features/candy.svg" type="image/svg+xml">
 								<img class="small-img" src="img/features/candy.png" alt="candy">
 							</picture>
 						</div>
@@ -108,7 +108,7 @@
 					<div class="features-block">
 						<div class="features-img">
 							<picture>
-								<source class="small-img" srcset="img/features/drink.svg" type="image/">
+								<source class="small-img" srcset="img/features/drink.svg" type="image/svg+xml">
 								<img class="small-img" src="img/features/drink.png" alt="drink">
 							</picture>
 						</div>
@@ -118,7 +118,7 @@
 					<div class="features-block">
 						<div class="features-img">
 							<picture>
-								<source class="small-img" srcset="img/features/food-and-restaurant.svg" type="image/">
+								<source class="small-img" srcset="img/features/food-and-restaurant.svg" type="image/svg+xml">
 								<img class="small-img" src="img/features/food-and-restaurant.png" alt="food-and-restaurant">
 							</picture>
 						</div>
@@ -128,7 +128,7 @@
 					<div class="features-block">
 						<div class="features-img">
 							<picture>
-								<source class="small-img" srcset="img/features/balloons.svg" type="image/">
+								<source class="small-img" srcset="img/features/balloons.svg" type="image/svg+xml">
 								<img class="small-img" src="img/features/balloons.png" alt="balloons">
 							</picture>
 						</div>
@@ -147,12 +147,12 @@
 					<p>Оставьте свои контактные данные <br>для связи</p>
 					<div class="main-form popup-form">
 						<form action="#">
-							<label for="#">Ваше имя</label>
-							<input class="main-form-input" type="text">
-							<label for="#">Номер телефона</label>
-							<input class="main-form-input" type="text">
-							<label for="#">Сообщение</label>
-							<textarea class="main-form-input" rows="5"></textarea>
+							<label for="name2">Ваше имя</label>
+							<input id = "name2" class="main-form-input" type="text">
+							<label for="phone2">Номер телефона</label>
+							<input id = "phone2" class="main-form-input" type="text">
+							<label for="textarea1">Сообщение</label>
+							<textarea id="textarea1" class="main-form-input" rows="5"></textarea>
 							<button class="main-form-btn button" type="submit">оставьте заявку</button>
 						</form>
 					</div>
@@ -358,13 +358,13 @@
 
 									<div class="row">
 										<div class="col-md-6">
-											<label for="#">Ваше имя</label>
-											<input class="main-form-input feedback-form-input" type="text">
+											<label for="name3">Ваше имя</label>
+											<input id = "name3" class="main-form-input feedback-form-input" type="text">
 										</div>
 
 										<div class="col-md-6">
-											<label for="#">Номер телефона</label>
-											<input class="main-form-input feedback-form-input" type="text">
+											<label for="phone3">Номер телефона</label>
+											<input if = "phone3" class="main-form-input feedback-form-input" type="text">
 										</div>
 									</div>
 
@@ -693,7 +693,7 @@
 						</div>
 					</div>
 					<div class="features-block materials-area">
-						<img class="materials-picture" class="small-img" src="img/materials/woodland.svg" alt="drink">
+						<img class="materials-picture small-img" src="img/materials/woodland.svg" alt="drink">
 						<div class="materials-text">
 							<h3>Volma</h3>
 							<p>Аква слой <strong>245</strong> руб/меш</p>
@@ -715,7 +715,7 @@
 						</div>
 					</div>
 					<div class="features-block materials-area">
-						<img class="materials-picture" class="small-img" src="img/materials/camper-van.svg" alt="balloons">
+						<img class="materials-picture small-img" src="img/materials/camper-van.svg" alt="balloons">
 						<div class="materials-text">
 							<h3>Ceresit</h3>
 							<p>Аква слой <strong>245</strong> руб/меш</p>
@@ -755,10 +755,10 @@
 								<div class="tour-form main-form">
 									<h2 class="main-form-header">Оставьте контактные данные <br> для связи</h2>
 									<form action="#">
-										<label for="#">Ваше имя</label>
-										<input class="main-form-input" type="text">
-										<label for="#">Номер телефона</label>
-										<input class="main-form-input" type="text">
+										<label for="name5">Ваше имя</label>
+										<input id = "name5" class="main-form-input" type="text">
+										<label for="phone5">Номер телефона</label>
+										<input id = "phone5" class="main-form-input" type="text">
 										<button class="main-form-btn button tour-form-btn" type="submit">записаться на просмотр</button>
 										<small>Подберем ближайший к Вам объект</small>
 									</form>
@@ -767,7 +767,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
 				</section>
 
 		<section class="add-service">
@@ -815,7 +814,6 @@
 				</div>
 
 				</div>
-			</div>
 		</section>
 
 		<section class="contacts">
@@ -831,7 +829,7 @@
 							<p>Адрес офиса: <br>
 							Москва , копейское шоссе, 12, офис 34</p>
 							<div class="contacts-area-map">
-								<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab09afdec49c3685552db92d67f73a968794be562ca41adb7638569750a67d950&amp;width=500&amp;height=240&amp;lang=ru_RU&amp;scroll=false"></script>
+								<script charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab09afdec49c3685552db92d67f73a968794be562ca41adb7638569750a67d950&amp;width=500&amp;height=240&amp;lang=ru_RU&amp;scroll=false"></script>
 							</div>
 							<p>Номер телефона: <br> <strong>+7 495 771 05 08</strong></p>
 							<p>E-mail: <br> <span>order@gipsolit.ru</span></p>
@@ -847,14 +845,14 @@
 								<h2 class="main-form-header">Оставьте контактные данные для связи</h2>
 
 								<form action="#">
-									<label for="#">Ваше имя</label>
-									<input class="main-form-input" type="text">
-									<label for="#">Номер телефона</label>
-									<input class="main-form-input" type="text">
-									<label for="#">E-mail</label>
-									<input class="main-form-input" type="text">
-									<label for="#">Сообщение</label>
-									<textarea class="main-form-input" rows="4"></textarea>
+									<label for="name4">Ваше имя</label>
+									<input id = "name4" class="main-form-input" type="text">
+									<label for="phone4">Номер телефона</label>
+									<input id = "phone4" class="main-form-input" type="text">
+									<label for="email">E-mail</label>
+									<input id = "email" class="main-form-input" type="text">
+									<label for="textarea2">Сообщение</label>
+									<textarea id="textarea2" class="main-form-input" rows="4"></textarea>
 									<button class="main-form-btn button contacts-btn" type="submit">записаться на просмотр</button>
 								</form>
 
@@ -871,7 +869,7 @@
 				<div class="row">
 
 					<div class="col-lg-4 col-sm-4 ">
-						<img class = "footer-photo footer-photo-0"src="img/footer/promote.svg" alt="promote">
+						<img class = "footer-photo footer-photo-0" src="img/footer/promote.svg" alt="promote">
 					</div>
 
 					<div class="col-lg-4 col-sm-4 ">
@@ -884,14 +882,14 @@
 					</div>
 
 					<div class="col-lg-2 offset-lg-2 col-sm-2 offset-sm-2">
-						<img class = "footer-photo footer-photo-1"src="img/footer/united-states.svg" alt="USA">
+						<img class = "footer-photo footer-photo-1" src="img/footer/united-states.svg" alt="USA">
 					</div>
 
 				</div>
 
 			</div>
 		</footer>
-
+</body>	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Connect stylish of slick -->
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
