@@ -40,9 +40,9 @@
           </div>
           <div class="col-lg-7 offset-lg-3">
             <div class="navbar-right">
-              <a class="active" href="#catalog">Каталог</a>
-              <a href="#wholesale">Опт</a>
-              <a href="#contact">Контакты</a>
+              <a class="active anim" href="#catalog">Каталог</a>
+              <a class="anim" href="#wholesale">Опт</a>
+              <a class="anim" href="#contact">Контакты</a>
               <a href="#main">тел. 8-800-301-00-86</a>
             </div>
           </div>
@@ -358,9 +358,11 @@
     </script>
     <script>
     $("body").on('click', '[href*="#"]', function(e){
-      var fixed_offset = 100;
-      $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-      e.preventDefault();
+      if(this.classList.contains('anim')){
+        var fixed_offset = 100;
+        $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+        e.preventDefault();
+      }
     });
     </script>
   </body>
