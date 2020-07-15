@@ -58,6 +58,7 @@ nav img {
 nav .navbar-logo a {
   vertical-align: center;
   text-align: center;
+  display: inline-block;
 }
 nav .navbar-right {
   margin-top: 1rem;
@@ -126,18 +127,25 @@ nav .navbar-right a:hover {
 .development-down h3 {
   margin-top: 4rem;
   font-size: 2.2rem;
+  margin: 2rem;
 }
 .development-down p {
   font-size: 1.6rem;
   color: #8d8d8d;
+  margin: 2rem;
 }
 .development-down button {
+  margin: 2rem;
   border: none;
   background-color: #f2f2f2;
   color: #00ff00;
   font-size: 2rem;
   font-family: 'ProximaNova_book', sans-serif;
   padding-left: 0;
+  margin-bottom: 5rem;
+}
+.development-down button:hover {
+  color: #00cd00;
 }
 .development-block {
   margin-right: 2rem;
@@ -159,6 +167,9 @@ nav .navbar-right a:hover {
   font-size: 2rem;
   font-family: 'ProximaNova_book', sans-serif;
   padding-left: 0;
+}
+.development-block button:hover {
+  color: #00cd00;
 }
 .bg-sur {
   background: url(../img/opt/bg-1-2.jpg) no-repeat;
@@ -223,10 +234,62 @@ nav .navbar-right a:hover {
   background-color: #e6e6e6;
   border: 2px solid #e6e6e6;
 }
+/*Оформление модальных окон*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 109;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-surprise form {
+  border: none;
+}
+.popup-surprise form button {
+  margin-top: 4rem;
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  text-align: center;
+  width: 2rem;
+  border: none;
+  background-color: transparent;
+  /*прозрачный фон*/
+  font-size: 3rem;
+  color: white;
+}
+.popup-content {
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  top: 10%;
+  background-color: white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 4rem 6rem;
+}
+.popup-content p {
+  font-size: 1.4rem;
+}
+.popup-form {
+  padding: 0;
+  margin-top: 4rem;
+}
+.popup-header {
+  font-family: 'ProximaNova_book', sans-serif;
+  font-size: 2.6rem;
+}
 .ceremony {
   margin-top: 5rem;
-  background: url(../img/bg-3.jpg) no-repeat center;
-  height: 85rem;
+  background: url(../img/bg-3.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 .ceremony-header {
   padding-top: 7rem;
@@ -320,8 +383,8 @@ nav .navbar-right a:hover {
   height: 30rem;
 }
 .footer {
-  background: url(../img/footer_bg.jpg) no-repeat center;
-  height: 46rem;
+  background: url(../img/footer_bg.jpg) no-repeat center center;
+  background-size: cover;
 }
 .footer-photo {
   display: block;
@@ -338,21 +401,89 @@ nav .navbar-right a:hover {
   margin-top: 4rem;
   font-size: 1.6rem;
 }
-.footer-down {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.footer small {
-  color: white;
-  font-size: 1.4rem;
-}
-.social-media {
-  margin-bottom: 6rem;
-}
 .small-social {
   height: 5rem;
   width: 5rem;
   text-align: center;
   color: white;
+}
+@media (max-width: 991px) {
+  .main-header-text h1 {
+    font-size: 3rem;
+  }
+  .main-header-text h1 strong {
+    font-size: 3.4rem;
+  }
+  .footer-photo {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 9rem;
+  }
+  .social {
+    margin-bottom: 2rem;
+  }
+  .social-header {
+    text-align: center;
+    margin-left: 7rem;
+  }
+  .social-media {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .ceremony iframe {
+    width: 46rem;
+    height: 26rem;
+  }
+  .footer-photo {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 6rem;
+  }
+  .social-header {
+    text-align: center;
+    margin-left: 0rem;
+  }
+  nav {
+    font-size: 1.6rem;
+  }
+  nav .navbar-right {
+    text-align: center;
+  }
+  nav .navbar-right a {
+    text-transform: uppercase;
+    color: gray;
+    margin: 0.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .ceremony iframe {
+    width: 35rem;
+    height: 20rem;
+  }
+  .footer-photo {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 4.5rem;
+  }
+  .social-header {
+    text-align: center;
+    margin-left: 0rem;
+  }
+  nav {
+    font-size: 1.4rem;
+  }
+  nav .navbar-right {
+    text-align: center;
+  }
+  nav .navbar-right a {
+    text-transform: uppercase;
+    color: gray;
+    margin: 0.2rem;
+  }
 }
