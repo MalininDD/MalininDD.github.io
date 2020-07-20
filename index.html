@@ -7,15 +7,22 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="/favicon.ico">
 
-    <title>Чайная компания Teamotea</title>
+    <title>Oriole</title>
 
     <!-- Bootstrap core CSS -->
+
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--  Slick css -->
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
     <!-- Animate css -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
      <!-- Custom styles for this template -->
+
     <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,451 +35,420 @@
   <body>
 
 
-  
-  <nav id="navbar">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
-          <div class="navbar-logo">
-            <a href="#main" ><img src="img/logo_g.jpg" alt="logo"></a>
+  <!-- Навигационная панель -->
+  <div class="bg">
+    
+    <nav id="navbar">
+      <div class="container">
+        <div class="navbar-oriole">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="navbar-oriole-name">
+                <a href="#main" class="anim">Oriole</a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="navbar-right navbar-oriole-topics">
+                <a class="active anim" href="#about">О нас</a>
+                <a class="anim" href="#portfolio">Портфолио</a>
+                <a class="anim" href="#contact">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </nav>
+
+
+    <main class="main" id ="main">
+      <div class="container">
+
+
+        <div class="main-page">
+          <div class="row">
+
+            <!--  Левая часть основной страницы -->
+            <div class="col-lg-6">
+              <h1 class="animate__animated animate__fadeInLeft">Хотите сайт для вашего бизнеса?</h1>
+              <div class="main-page-text">
+                <p class="animate__animated animate__fadeInLeft">Создаем сайты для бизнеса более года <br><br>Одностраничные сайты<br>Интернет-магазины<br>Сайты на Wordpress</p>
+              </div>
+              <button class="btn main-page-button popup-btn"><span class="main-page-button-text">Заказать сайт</span> <img src="img/bg-arrow-right.svg" alt="bg-arrow-right"></button>
+              <div class="main-page-down">
+                <small>2020 © Oriole</small>
+              </div>
+            </div>
+            <!-- Слайдер -->
+
+            <div class="col-lg-6">
+              <div class="main-slider">
+                       
+                <div class="main-slider_item">
+                  <div class="main-slider-block">
+                    <img class="main-slider-block-photo animate__animated animate__fadeInRight" src="img/main-rect.png" alt="main-rect">
+                  </div>
+                </div>
+
+                <div class="main-slider_item">
+                  <div class="main-slider-block-2">
+                    <img class="photo-2 main-slider-block-photo" src="img/photo-2.png" alt="photo-2">
+                  </div>
+                </div>
+
+                <div class="main-slider_item">
+                  <div class="main-slider-block-3">
+                    <img class="photo-3 main-slider-block-photo" src="img/photo-3.png" alt="photo-3">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="col-xl-7 offset-xl-3 col-lg-9 offset-lg-1 col-sm-10 offset-sm-0 col-10 offset-col-0">
-          <div class="navbar-right">
-            <a class="active anim" href="#catalog">Каталог</a>
-            <a class="anim" href="#wholesale">Опт</a>
-            <a class="anim" href="#contact">Контакты</a>
-            <a href="#main">тел. 8-800-301-00-86</a>
+
+        <div class="main-about-page" id="about">
+
+          <div class="row">
+            <div class="col-lg-3 offset-lg-3">
+              <div class="main-about-page-left">
+                <h2>О нас</h2>
+                <p>Мы российская IT компания, базирующаяся на фронтенд-разработке. Разрабатываем качественные и долгослужащие сайты.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="main-about-page-right">
+                <img class="wow animate__animated animate__fadeInRight" src="img/about/photo1.svg" alt="photo1">
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </main>
 
-  <main class="main" id = "main">
-      <div class="main-header">
-        <div class="fotorama feedback-slider_item-fotorama" data-height="600" data-width="100%" data-transition="dissolve"  data-fit="cover" data-autoplay="true" data-nav="false">
-          <div data-img="img/header/listja_chaja-1.jpg" class="any inverse">
-            <div class="main-header-text">
-              <div class="row">
-                <div class="col-lg-4 offset-lg-2 col-sm-6 offset-sm-2 col-6 offset-2"><h1 class="animate__animated animate__fadeInUp">Производство чая под <strong>вашим брендом</strong></h1></div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 offset-lg-2 col-sm-6 offset-sm-2 col-6 offset-2"><p class="animate__animated animate__fadeInUp">Эксклюзивное производство чайной продукции в Китае под Вашей торговой маркой</p></div>
-              </div>
-            </div>
-          </div>
-          <div data-img="img/header/photo2-1.jpg" class="any inverse">
-            <div class="main-header-text">
-              <div class="row">
-                <div class="col-lg-4 offset-lg-2 col-sm-6 offset-sm-2 col-6 offset-2"><h1 class="animate__animated animate__fadeInUp">Доставка чая в <strong>любую точку РФ</strong></h1></div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 offset-lg-2 col-sm-6 offset-sm-2 col-6 offset-2"><p class="animate__animated animate__fadeInUp">Поставки чайной продукции со склада в Москве или прямая доставка из Китая от 10-15 дней</p></div>
-              </div>
-            </div>
-          </div>
-          <div data-img="img/header/photo3-1.jpg" class="any inverse">
-            <div class="main-header-text">
-              <div class="row">
-                <div class="col-lg-4 offset-lg-2 col-sm-6 offset-sm-2 col-6 offset-2"><h1 class="animate__animated animate__fadeInUp">Прямые поставки с <strong>чайных хозяйств</strong></h1></div>
-               </div>
-               <div class="row">
-                <div class="col-lg-4 offset-lg-2 col-sm-6 offset-sm-2 col-6 offset-2"><p class="animate__animated animate__fadeInUp">Наши партнеры получают чай, изготовленный под заказ лучшими частными хозяйствами Китая</p></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </main>
+  </div>
 
-  
+  <div class="popup">
+    <div class="popup-dialog">
+      <div class="popup-content">
+        <button class="popup-close">&times;</button>
+        
+        <!-- <div class="container"> -->
+          <!-- code here -->
+          <div class="card">
+            <div class="card-image">  
+              <h2 class="card-heading">
+                Заявка
+                <small>Заполните поля ниже</small>
+              </h2>
+            </div>
+            <form class="card-form">
+              <div class="input">
+                <input type="text" class="input-field" required/>
+                <label class="input-label">Имя</label>
+              </div>
+                    <div class="input">
+                <input type="text" class="input-field"  required/>
+                <label class="input-label">Email</label>
+              </div>
+
+              <div class="action">
+                <button class="action-button">Отправить</button>
+              </div>
+            </form>
+            <div class="card-info">
+              <p>Мы ответим вам в ближайшее время</p>
+            </div>
+          </div>
+        <!-- </div> -->
+
+      </div>
+    </div>
+  </div> 
+
+
   <section>
     <div class="container">
-      <div class="about">
-        
-        <h2>Чайная компания</h2>
+      <div class="features">
+        <h2>Несколько фактов о нас.</h2>
 
-        <p>Компания Teamotea уже давно зарекомендовала себя как надежный партнер на рынке чайного дела. Этого удалось достичь не только благодаря поставкам высококачественных чаев, но и благодаря комплексному подходу к организации чайного бизнеса. Мы не только поставляем чай с лучших чайных хозяйств до двери клиента, но и оказываем своим партнерам информационную, рекламную и маркетинговую поддержку в зависимости от той ниши, которую они занимают на чайном рынке: будь это оптовая компания, магазин или ресторан с чайным меню.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="wholesale">
-    
-    <div class="development" >
-      <div class="container">  
-        
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="development-block">
-              <h3>Разработка чайного бизнеса под ключ</h3>
-              <p>Чай — один из самых популярных напитков в мире. А значит, спрос на него всегда будет высоким…</p>
-              <button class="popup-btn">показать полностью</button>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="development-block">
-              <h3>Разработка франшиз для чайных брендов</h3>
-              <p>Возможно, вы — уже владелец успешного чайного бренда и чайной компании. Но рано или поздно…</p>
-              <button class="popup-btn-2">показать полностью</button>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="development-block">
-              <h3>Разработка бренда и упаковки</h3>
-              <p>Ни для кого не секрет, что в больше чем половине случаев, покупатель выбирает товар, основываясь на…</p>
-              <button class="popup-btn-3">показать полностью</button>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="development-block">
-              <h3>Чайные туры в Китай</h3>
-              <p>Приглашаем вас в уникальные туры по лучшим чайным плантациям Китая и Тайваня, такого…</p>
-              <button class="popup-btn-4">показать полностью</button>
-            </div>
-          </div>
-
-          <div class="development-down">
+          <div class="features-block-1">
             <div class="row">
-              <div class="col-lg-6">
-                <img class = "wow animate__animated animate__fadeInLeft" src="img/opt/photo1.png" alt="thetea">
+
+              <div class="col-lg-3 offset-lg-1">
+                <h3>Скорость</h3>
+                <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Обеспечивает речью имеет семь пунктуация они осталось. Предупредила, алфавит вопрос.</p> 
+              </div>
+
+              <div class="col-lg-8">
+                <img class="wow animate__animated animate__fadeInRight" src="img/about/photo2.svg" alt="photo2">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="features-block-2">
+            <div class="row">
+
+              <div class="col-lg-5">
+                <img class="wow animate__animated animate__fadeInLeft" src="img/about/photo4.svg" alt="photo4">
+              </div>
+
+              <div class="col-lg-4 offset-lg-3">
+                <h3>Качество</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error repudiandae quam iste libero, doloribus facere nulla exercitationem ipsum. Saepe amet fugiat consectetur provident, commodi alias doloremque quos, dolorem temporibus sed!</p>
               </div>
               
+            </div>
+          </div>
+
+          <div class="features-block-3">
+            <div class="row">
+
+              <div class="col-lg-4 offset-lg-1">
+                <h3>Поддержка связи с клиентом 24/7</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, rem, excepturi. Nam commodi possimus similique, odio ipsa, ipsum, fugiat autem quod veniam, necessitatibus aliquid eos id dolore ad dolores perspiciatis!</p> 
+              </div>
+
+              <div class="col-lg-5">
+                <img class="wow animate__animated animate__fadeInRight" src="img/about/photo3.svg" alt="photo3">
+              </div>
+  
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section >
+    <div class="portfolio" >
+      <div class="container">
+        <div class="portfolio-header" >
+          
+          <div class="row">
+            <div class="col-lg-3 offset-lg-3">
+              <div class="portfolio-header-left">
+                <h2 id="portfolio">Портфолио</h2>
+                <p>Здесь вы можете посмотреть наши последние работы</p>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="portfolio-header-right">
+                <img src="img/portfolio/photo1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+    
+        <div class="portfolio-main">
+          <div class="portfolio-main-block-1">
+            
+            <div class="row">
+              <div class="col-lg-6 offset-lg-2">
+                <div class="portfolio-main-block-1-photo">
+                  
+                  <div class="fotorama"  data-click="true" data-allowfullscreen="native">
+                    <img src="img/portfolio/photo-2.jpg">
+                    <img src="img/portfolio/photo-3.jpg">
+                    <img src="img/portfolio/photo-4.jpg">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+
+                <div class="portfolio-main-block-1-text">
+                  <h2>Teamotea</h2>
+                  <p>Сайт для чайной компании. <br> Работа была выполнена за 5 дней. <br> Стоимость: 20 000 рублей. </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-main-block-2">
+            
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="portfolio-main-block-2-text">
+                  
+                  <h2>KLAFS</h2>
+                  <p>Сайт компании, предоставляющей спа-услуги. <br> Работа была выполнена за 7 дней. <br> Стоимость: 40 000 рублей. </p>
+
+                </div>
+              </div>
+
               <div class="col-lg-6">
-                <h3>Оптовые поставки китайского и тайваньского чая</h3>
-                <p>Очень тяжело на обширном чайном рынке найти себе хорошего поставщика, особенно для людей, которые мало знакомы с производством и характеристиками чайных листьев. Многие покупатели часто становятся жертвами недобросовестных производителей: зачастую вместо заявленного сорта присылают чай низшего качества. <br><br>Поэтому покупку чая стоит доверить людям, которые в этом действительно разбираются. Компания Teamotea готова организовать для вас оптовые поставки лучшего китайского и тайваньского чая в любую точку мира. За долгое время работы в Китае мы создали обширную базу проверенных китайских поставщиков, в качестве их чая мы уверены на 100 процентов.</p>
-                <button class="popup-btn-5">показать полностью</button>
+
+                <div class="portfolio-main-block-2-photo">
+                  <div class="fotorama"  data-click="true" data-allowfullscreen="native">
+
+                    <img src="img/portfolio/photo-2-1.jpg">
+                    <img src="img/portfolio/photo-3.jpg">
+                    <img src="img/portfolio/photo-4.jpg">
+
+                  </div>
+                </div>
+
               </div>
             </div>
-
           </div>
+
+          <div class="portfolio-main-block-1">
+            
+            <div class="row">
+              <div class="col-lg-6 offset-lg-2">
+                <div class="portfolio-main-block-1-photo">
+                  
+                  <div class="fotorama"  data-click="true" data-allowfullscreen="native">
+                    <img src="img/portfolio/photo-3-1.jpg">
+                    <img src="img/portfolio/photo-3.jpg">
+                    <img src="img/portfolio/photo-3-3.jpg">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+
+                <div class="portfolio-main-block-1-text">
+                  <h2>Сайт транспортной компании</h2>
+                  <p> Работа была выполнена за 3 дня. <br> Стоимость: 10 000 рублей. </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-    </div>
-  </section>
 
-  <div class="popup popup-1">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header"> Разработка чайного бизнеса под ключ</h4>
-        <img src="" alt="">
-        <p>Чай — один из самых популярных напитков в мире. А значит, спрос на него всегда будет высоким. Популярность и востребованность чая подтверждается также и тем, что чай — это один из немногих продовольственных товаров, которым торгуют на биржах. Поэтому, на сегодняшний день, бизнес, связанный с чаем, является весьма рентабельным.</p>
-        <br>
-        <p>Для того, чтобы стать владельцем успешной чайной компании, не обязательно тратить свое время на изучение чайного рынка, на поиск проверенных поставщиков, на создание и регистрацию своей торговой марки. Все эти пункты мы берем на себя, на выходе вы получаете готовый бизнес, который работает как отлаженный часовой механизм<br><br>У нашей компании большой международный опыт, ведь организовать свой бизнес нам доверили уже более 70 компаний по всему миру. <br><br>Неважно, интересует ли вас только поставка качественного сырья с лучших плантаций Китая и Тайваня, или организация бизнеса с самого первого этапа. Доверив нам организацию своего бизнеса, вы сможете получить свою первую прибыль уже очень скоро.</p>
-      </div>
     </div>
   </div>
+  </section> 
 
-  <div class="popup popup-2">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header"> Разработка франшиз для чайных брендов</h4>
-        <img src="" alt="">
-        <p>Возможно, вы — уже владелец успешного чайного бренда и чайной компании. Но рано или поздно, любой бизнес достигает пика своего развития в занимаемой им нише. Поэтому, следующим шагом для расширения бизнеса может стать создание вашей собственной франчайзинговой сети. Это выведет ваше предприятие на совершенно новый качественный уровень. <br>Франшиза станет дополнительной рекламой, поможет увеличить рынок сбыта, а также принесет ощутимую прибыль в виде роялти (денежная компенсация, которую будут выплачивать владельцы франшизы вашего бизнеса). Но при этом, организация франчайзинговой сети требует серьезных юридических знаний и опыта. Поэтому создание сети франшиз вы можете доверить нам.</p>
-        <br>
-        <p>Мы возьмем на себя все правовые аспекты и поможем с выходом на рынок в вашем регионе, а также сделаем вашу франшизу привлекательной для предпринимателей со всего мира. Доверив нам организацию сети франшиз, вы получите полностью готовый бизнес, нацеленный на получение большой прибыли в достаточно короткий срок. Развивайтесь вместе с Teamotea!</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="popup popup-3">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header"> Разработка бренда и упаковки</h4>
-        <img src="" alt="">
-        <p>Ни для кого не секрет, что в больше чем половине случаев, покупатель выбирает товар, основываясь на визуальном эффекте. Поэтому качественная и яркая упаковка вашего товара — это в первую очередь инструмент продажи. И также покупатели отдают предпочтение товару, который выпускается под брендом, no-name товар мало кого интересует.</p>
-        <br>
-        <p>Поэтому следует уделить внимание этим двум важным аспектам. Мы поможем вам разработать запоминающийся бренд, а также дизайн упаковки, который будет выгодно отличать ваш товар на полках магазинов, привлекая покупателей своей уникальностью и оригинальностью. Наши дизайнеры создавали дизайны чайной упаковки для многих европейских и азиатских чайных компаний. <br><br>Сделайте свой товар привлекательным для покупателя, закажите дизайн упаковки у специалистов компании Teamotea.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="popup popup-4">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header"> Чайные туры в Китай</h4>
-        <img src="" alt="">
-        <p>Вы любите чай? Тогда вам должно быть интересно, как самый популярный в мире напиток попадает на полки магазинов. Приглашаем вас в уникальные туры по лучшим чайным плантациям Китая и Тайваня, такого вам точно не предложат ни в одном туристическом агентстве!</p>
-        <br>
-        <p>Каждый тур мы составляем исходя из личных предпочтений заказчика, например, вы можете посетить плантации, на которых выращивается какой-то определенный вид чая. Если же особенных предпочтений нет, мы предложим вам на выбор несколько интересных направлений. <br><br>Во время чайного тура вы сможете познакомиться с древней китайской культурой чаепития. Профессиональные экскурсоводы научат вас разбираться в многочисленных сортах чая, а также покажут и расскажут вам, как правильно заваривать разные виды чая. <br><br>На чайных плантациях у вас будет возможность приобрести чайные листья непосредственно «с куста», минуя долгую череду посредников. Также, чайные туры будут интересны и тем, кто занимается продажей чая. Вы сможете освежить свои знания о чае и, возможно, заключить выгодные контракты на поставку чая непосредственно с самими производителями.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="popup popup-5">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header"> Оптовые поставки китайского и тайваньского чая</h4>
-        <img src="" alt="">
-        <p>Очень тяжело на обширном чайном рынке найти себе хорошего поставщика, особенно для людей, которые мало знакомы с производством и характеристиками чайных листьев. Многие покупатели часто становятся жертвами недобросовестных производителей: зачастую вместо заявленного сорта присылают чай низшего качества. <br>Поэтому покупку чая стоит доверить людям, которые Компания Teamotea готова организовать для вас оптовые поставки лучшего китайского и тайваньского чая в любую точку мира. За долгое время работы в Китае мы создали обширную базу проверенных китайских поставщиков, в качестве их чая мы уверены на 100 процентов. <br>Также процесс поставки чая полностью контролируется на всех этапах. На каждую чайную плантацию наши представители выезжают лично и проверяют качество продукции. Наша компания регулярно принимает участие в лучших чайных выставках, которые проходят по всему Китаю, поэтому мы всегда в курсе последних новинок чайной индустрии.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="popup popup-more">
-    <div class="popup-dialog">
-      <div class="popup-content surprise popup-surprise">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header"> Получить каталог</h4>
-        <img src="" alt="">
-        <p>Укажите адрес электронной почты и получите полный каталог нашего чая с фотографиями и актуальный прайс-лист.</p>
-        <form action="#">
-          <input id = "name1" class="surprise-form-input" required type="text" placeholder="Имя*">
-          <input class="surprise-form-input" id="phone1" required type="text" placeholder="E-mail*">
-          <button class="surprise-form-btn button" type="submit">Получить каталог</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <section class="bg-sur">
-    <div class="surprise">
+  <footer id="contact">
+    <div class="footer">
       <div class="container">
-        <h2>чайный <strong>набор в подарок</strong></h2>
-        <p>В нашем ассортименте есть совершенно <strong>уникальный чай Сяо Синган</strong> – это китайский чай помещенный в натуральные высушенные лаймы. В процессе сушки чайный лист пропитывается эфирными маслами лайма, вбирая в себя все его полезные свойства и потрясающие аромат и вкус.</p>
-        <div class="row">
-          <div class="col-lg-6 offset-lg-6">
-            <form action="#">
-              <h3>Прямо сейчас Вы можете оставить заявку и <strong>получить 3 вида чая в лайме и тестовый <br>набор из 12 популярных сортов</strong><br> в подарок к любому заказу.</h3>
-              <input id = "name1" class="surprise-form-input" required type="text" placeholder="Имя*">
-              <input class="surprise-form-input" id="phone1" required type="text" placeholder="Телефон*">
-              <button class="surprise-form-btn button" type="submit">Получить подарок</button>
-            </form>
+        <div class="footer-main">
+          <div class="row">
+            
+            <div class="col-lg-4">
+              <div class="footer-main-left">
+                <h3>Контакты</h3>
+                <img src="img/footer/photo1.svg" alt="">
+                <p class="footer-main-left-email">oriolebusiness@yandex.ru</p>
+                <br>
+                <img src="img/footer/photo2.svg" alt="">
+                <p class="footer-main-left-telephone">+7-952-443-11-78 - Дмитрий</p>
+                <br>
+                <img src="img/footer/photo2.svg" alt="">
+                <p class="footer-main-left-telephone">+7-920-031-20-47 - Алексей</p>
+              </div>
+            </div>
+
+            <div class="col-lg-1 offset-lg-7">
+              <div class="footer-main-right">
+
+                <a href="#" target="_blank"><img src="img/vk.png" alt=""></a>    
+
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section>
-    <div class="ceremony">
-      <div class="container">
-        <div class="ceremony-block">
-          <div class="ceremony-header"><h2><strong>ЗАВОРАЖИВАЮЩАЯ</strong> ЧАЙНАЯ ЦЕРЕМОНИЯ</h2></div>
-          <p>Какой бы высококачественый и элитный сорт чая вы ни выбрали, его вкус можно испортить неправильно заварив ароматный напиток, равно как и весьма посредственный чай может заиграть яркими нотами при соблюдении всех правил при заваривании. Поэтому неудивительно, что на родине чая – в Китае существует несколько видов традиционных способов приготовления самого популярного в мире напитка. Искусство приготовления и питья чая помогает людям настроиться на созерцательный лад, забыть о повседневной суете и поделиться с другими спокойствием и душевным равновесием. Посмотрите видео и окунитесь в мир этого волшебного напитка!</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/TBpzKk4wPl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="https://www.youtube.com/watch?v=TBpzKk4wPl8" target="new">БОЛЬШЕ ВИДЕО</a>
-        </div>
-      </div>
-    </div>
-  </section>
-   
-   <section id="catalog">
-     <div class="catalog" >
-      <div class="container">
 
-        <div class="catalog-block">
-          <h2><strong>ШИРОЧАЙШИЙ</strong> АССОРТИМЕНТ</h2>
-          <p>Китай является одним из крупнейших экспортеров чайного сырья на мировой рынок: уникальные сорта чая уже давно зарекомендовали себя среди знатоков этого ароматного и полезного напитка. Для вас мы собрали уникальную коллекцию из более чем 350 сортов китайского чая, которые всегда есть на наших складах в Китае, Европе и США. Уже более 10 лет мы оперативно доставляем своим клиентам товар в любую точку мира, независимо от объема партии.</p>
-        </div>
 
-       <!-- Nav tabs -->
-      <div class="catalog-list">
-        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-          <li class="nav-item ">
-            <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ЧЕРНЫЙ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">БЕЛЫЙ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">ЖЕЛТЫЙ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">ПУЭР</a>
-          </li>
-        </ul>
-      </div>
 
-       <!-- Tab panes -->
-      <div class="tab-content">
-        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <div class="catalog-block">
-            <div class="row">
-              <div class="col-lg-4">
-                <h3>ЧЕРНЫЙ ЧАЙ</h3>
-                <p>КИТАЙЦЫ НАЗЫВАЮТ ЕГО КРАСНЫМ ЧАЕМ. САМЫЙ ХОДОВОЙ И ПРИВЫЧНЫЙ ДЛЯ РУССКИХ ВИД ЧАЯ. БОЛЕЕ 50 СОРТОВ В НАШЕЙ КОЛЛЕКЦИИ.</p>
-              </div>
-              <div class="col-lg-6 offset-lg-1">
-                <img src="img/tea/Black_tea.jpg" alt="Black_tea">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <div class="catalog-block">
-            <div class="row">
-              <div class="col-lg-4">
-                <h3>БЕЛЫЙ ЧАЙ</h3>
-                <p>ПРОСТО ПРЕКРАСЕН! ЭТО ВЫБОР ИСТИННЫХ ЦЕНИТЕЛЕЙ. В НАШЕЙ КОЛЛЕКЦИИ 50 СОРТОВ БЕЛОГО ЧАЯ ИЗ РАЗНЫХ РЕГИОНОВ КИТАЯ.</p>
-              </div>
-              <div class="col-lg-6 offset-lg-1">
-                <img src="img/tea/White_tea.jpg" alt="Black_tea">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-          <div class="catalog-block">
-            <div class="row">
-              <div class="col-lg-4">
-                <h3>ЖЕЛТЫЙ ЧАЙ</h3>
-                <p>ИМПЕРАТОРСКИЙ СОРТ, ВЕКАМИ НЕДОСТУПНЫЙ ДЛЯ ПРОСТЫХ СМЕРТНЫХ, ЕСТЬ В НАШЕЙ КОЛЛЕКЦИИ. «ЖЕЛТЫЕ ПОЧКИ С ГОРЫ МЭН-ДИН».</p>
-              </div>
-              <div class="col-lg-6 offset-lg-1">
-                <img src="img/tea/Yellow_tea.jpg" alt="Black_tea">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-          <div class="catalog-block">
-            <div class="row">
-              <div class="col-lg-4">
-                <h3>ШУ И ШЕН ПУЭР</h3>
-                <p>СРЕДИ БОЛЕЕ ЧЕМ 100 СОРТОВ ПУЭРОВ В НАШЕЙ КОЛЛЕКЦИИ ЕСТЬ ОЧЕНЬ НЕОБЫЧНЫЕ ВИДЫ, ТЕХНОЛОГИЯ РУЧНОГО ПРОИЗВОДСТВА КОТОРЫХ УНИКАЛЬНА.</p>
-              </div>
-              <div class="col-lg-6 offset-lg-1">
-                <img src="img/tea/Puer_tea.jpg" alt="Black_tea">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+ 
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-      <div class="catalog-btn">
-        <button class="surprise-form-btn button popup-more-btn" type="submit">Получить полный каталог</button>
-      </div>
-
-      </div>
-     </div>
-   </section>
-
-   <footer>
-     <div class="footer" id="contact">
-       <div class="container">
-         <div class="row">
-           <div class="col-lg-7 offset-lg-1">
-             <h3>АДРЕСА</h3>
-             <p>Китай, Гуанчжоу<br>广州天河区珠江东路6号 广州周大福金融中心9楼 102单元 <br>Unit 102 , Level 9, CTF Finance Centre, 6 Zhujiang Dong Road, Tianhe District,<br> Guangzhou, China <br>+8618602062404</p>
-             <p>Россия, Москва <br>ООО «Теамоти Рус», ОГРН: 1177746125974 м.Нагатинская, Варшавское шоссе, д.26, стр.10, 5 этаж <br>8-800-301-00-86 <br>sales@teamotea.ru</p>
-           </div>
-
-           <div class="social">
-            <div class="social-header">
-              <h3 class="social-media">СЕТИ</h3>
-            </div>
-             <div class="col-lg-4 col-sm-12">
-               <div class="footer-photo">
-                 <a href=""><img class="small-social" src="img/social-media/inst.png" alt=""></a>
-               </div>
-               <div class="footer-photo">
-                 <a href=""><img class="small-social" src="img/social-media/youtube.png" alt=""></a>
-               </div>
-               <div class="footer-photo">
-                 <a href=""><img class="small-social" src="img/social-media/facebook.png" alt=""></a>
-               </div>
-               <div class="footer-photo">
-                 <a href=""><img class="small-social" src="img/social-media/vk.png" alt=""></a>
-               </div>
-             </div>
-           </div>
-
-         </div>
-       </div>
-     </div>
-   </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-    <script src="slick/slick.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        /*Слайдер с отзывами*/
-        $('.main-header-slider').slick({
-
-          prevArrow:'<button type="button" class="main-header-slider-btn main-header-slider-btn-prev"><img class = "photo-arrows" src="img/header/return.svg" alt="back"></button>',
-          nextArrow:'<button type="button" class="main-header-slider-btn main-header-slider-btn-next"><img class = "photo-arrows" src="img/header/next.svg" alt="next"></button>'
-        });
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <script src="slick/slick.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Скрипт навигационной панели -->
+  <!--  Скрипт слайдера main -->
+  <script>
+    $(document).ready(function(){
+      $('.main-slider').slick({
+        prevArrow:'<button type="button" class="main-slider-btn main-slider-btn-prev"><img class ="arrow-photo" src="img/prev.svg" alt="back"></button>',
+        nextArrow:'<button type="button" class="main-slider-btn main-slider-btn-next"><img class ="arrow-photo"src="img/next.svg" alt="next"></button>',
+        autoplay: true,
       });
-    </script>
-    <script>
-      window.onscroll = function() {myFunction()};
-      // Get the navbar
-      var navbar = document.getElementById("navbar");
 
-      // Get the offset position of the navbar
-      var sticky = navbar.offsetTop;
-
-      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
-    </script>
-    <script>
-      $('#myTab a').on('click', function (e) {
-        e.preventDefault()
-        $(this).tab('show')
-      })
-    </script>
-    <script>
-    $("body").on('click', '[href*="#"]', function(e){
-      if(this.classList.contains('anim')){
-        var fixed_offset = 100;
-        $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-        e.preventDefault();
-      }
     });
-    </script>
-    <script>
-      $(document).ready(function(){
-        $('.popup-btn').on('click',function(event){
-          event.preventDefault();
-          $('.popup-1').fadeIn();
-        })
-        $('.popup-btn-2').on('click',function(event){
-          event.preventDefault();
-          $('.popup-2').fadeIn();
-        })
-        $('.popup-btn-3').on('click',function(event){
-          event.preventDefault();
-          $('.popup-3').fadeIn();
-        })
-        $('.popup-btn-4').on('click',function(event){
-          event.preventDefault();
-          $('.popup-4').fadeIn();
-        })
-        $('.popup-more-btn').on('click',function(event){
-          event.preventDefault();
-          $('.popup-more').fadeIn();
-        })
-        $('.popup-btn-5').on('click',function(event){
-          event.preventDefault();
-          $('.popup-5').fadeIn();
-        })
-        $('.popup-close').on('click',function(event){
-          event.preventDefault();
-          $('.popup').fadeOut();
-        });
+  </script>   
+
+  <!-- Смена фона навбара- функция 1, скрытие при скроллинге - функция 2 -->
+
+  <script>
+    window.onscroll = function() {myFunction(),myFunction2()};
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+    var prevScrollpos = window.pageYOffset;
+
+    // Get the offset position of the navbar
+    var sticky = 55;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    function myFunction2(){
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-80px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
+  <script>
+    $('#myTab a').on('click', function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    })
+  </script>
+  <script>
+  $("body").on('click', '[href*="#"]', function(e){
+    if(this.classList.contains('anim')){
+      var fixed_offset = 100;
+      $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+      e.preventDefault();
+    }
+  });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.popup-btn').on('click',function(event){
+        event.preventDefault();
+        $('.popup').fadeIn();
+      })
+      $('.popup-close').on('click',function(event){
+        event.preventDefault();
+        $('.popup').fadeOut();
       });
-    </script>
+    });
+  </script>
   </body>
 </html>

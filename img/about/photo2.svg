@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1111px" height="993px" viewBox="0 0 1111 993" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Feature</title>
+    <defs>
+        <rect id="path-1" x="0.66" y="0" width="279.84" height="430.98" rx="2.64"></rect>
+        <filter x="-26.8%" y="-11.1%" width="153.6%" height="134.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="27" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.568627451   0 0 0 0 0.411764706   0 0 0 0 0.858823529  0 0 0 0.0946557971 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0.66" y="0" width="279.84" height="430.98" rx="2.64"></rect>
+        <filter x="-26.8%" y="-11.1%" width="153.6%" height="134.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="27" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.568627451   0 0 0 0 0.411764706   0 0 0 0 0.858823529  0 0 0 0.0946557971 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design">
+            <path d="M496.9782,104.463607 C126.828576,65.026306 59.594103,232.765967 104.355322,412.507845 C160.143675,636.529973 17.4915285,739.380854 151.877683,809.589416 C291.346247,882.453227 400.814754,509.972569 740.956213,611.303161 C1243.64918,761.05902 963.564339,154.175662 496.9782,104.463607 Z" id="Combined-Shape" fill="#9169DB" transform="translate(555.264616, 490.761210) rotate(164.000000) translate(-555.264616, -490.761210) "></path>
+            <g id="Group-2" transform="translate(348.975000, 127.050000)">
+                <polygon id="Fill-28" fill="#9169DB" transform="translate(94.458546, 56.568638) rotate(133.000000) translate(-94.458546, -56.568638) " points="100.564691 62.6910969 87.118553 61.1353411 88.3524015 50.4461793 101.79854 52.0013365"></polygon>
+                <polygon id="Fill-30" fill="#E5E7EB" transform="translate(8.299905, 116.401839) rotate(133.000000) translate(-8.299905, -116.401839) " points="14.4547934 118.129692 5.22515177 122.011 2.14501606 114.674585 11.3740596 110.792678"></polygon>
+                <polygon id="Fill-30" fill="#E5E7EB" transform="translate(207.752562, 167.939832) rotate(209.000000) translate(-207.752562, -167.939832) " points="213.907451 169.667685 204.677809 173.548993 201.597674 166.212578 210.826717 162.330671"></polygon>
+                <polygon id="Fill-30" fill="#E5E7EB" transform="translate(15.486594, 7.586973) rotate(72.000000) translate(-15.486594, -7.586973) " points="21.6414831 9.31482575 12.4118415 13.1961342 9.33170577 5.85971898 18.5607493 1.97781195"></polygon>
+                <polygon id="Fill-36" fill="#9169DB" transform="translate(162.896969, 116.744333) rotate(133.000000) translate(-162.896969, -116.744333) " points="168.902934 126.467657 152.213982 120.78876 156.891003 107.021009 173.579956 112.699907"></polygon>
+            </g>
+            <g id="Group" transform="translate(185.625000, 203.775000)">
+                <g id="Group-14" transform="translate(156.090000, 0.000000)"></g>
+                <g id="Start" transform="translate(0.165000, 133.980000)">
+                    <g id="BG" transform="translate(0.165000, 0.000000)">
+                        <g id="Rectangle-12">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <line x1="2.745" y1="332.97" x2="278.77979" y2="332.97" id="Line-3" stroke="#F8F6FC" stroke-width="3.3" stroke-linecap="square"></line>
+                        <line x1="2.46375" y1="77.55" x2="278.77979" y2="77.55" id="Line-3" stroke="#F8F6FC" stroke-width="3.3" stroke-linecap="square"></line>
+                    </g>
+                    <g id="Time" transform="translate(29.865000, 362.340000)" fill="#192646">
+                        <text id="Start-Time" font-family="Helvetica" font-size="7.92" font-weight="normal" letter-spacing="1.31999999">
+                            <tspan x="0" y="8">Start Time</tspan>
+                        </text>
+                        <text id="10:45-AM" font-family="Helvetica" font-size="21.12" font-weight="normal" line-spacing="25.08">
+                            <tspan x="0" y="33.2">10:45 AM</tspan>
+                        </text>
+                        <polyline id="Fill-413" transform="translate(222.225300, 36.300000) rotate(-90.000000) translate(-222.225300, -36.300000) " points="220.7106 32.34 219.78 33.2706 222.8028 36.3 219.78 39.3294 220.7106 40.26 224.6706 36.3 220.7106 32.34"></polyline>
+                        <polyline id="Fill-413" transform="translate(222.225300, 9.240000) scale(-1, 1) rotate(-90.000000) translate(-222.225300, -9.240000) " points="220.7106 5.28 219.78 6.2106 222.8028 9.24 219.78 12.2694 220.7106 13.2 224.6706 9.24 220.7106 5.28"></polyline>
+                    </g>
+                    <g id="Start-Date" transform="translate(29.865000, 101.640000)">
+                        <text id="SUN" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="1.46566406" y="73.68">SUN</tspan>
+                        </text>
+                        <text id="MON" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="35.4215039" y="73.68">MON</tspan>
+                        </text>
+                        <text id="TUE" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="71.94" y="73.68">TUE</tspan>
+                        </text>
+                        <text id="WED" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="104.721504" y="73.68">WED</tspan>
+                        </text>
+                        <text id="THU" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="140.985088" y="73.68">THU</tspan>
+                        </text>
+                        <text id="FRI" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="175.04792" y="73.68">FRI</tspan>
+                        </text>
+                        <text id="SAT" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="204.535547" y="73.68">SAT</tspan>
+                        </text>
+                        <text id="27" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="6.41115234" y="113.94">27</tspan>
+                        </text>
+                        <text id="28" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="41.3911523" y="113.94">28</tspan>
+                        </text>
+                        <text id="29" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="75.7111523" y="113.94">29</tspan>
+                        </text>
+                        <text id="30" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="110.691152" y="113.94">30</tspan>
+                        </text>
+                        <text id="31" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                            <tspan x="145.671152" y="113.94">31</tspan>
+                        </text>
+                        <text id="1" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="179.920576" y="113.94">1</tspan>
+                        </text>
+                        <text id="2" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="210.940576" y="113.94">2</tspan>
+                        </text>
+                        <text id="3" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="8.98057617" y="135.72">3</tspan>
+                        </text>
+                        <text id="4" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="43.9605762" y="135.72">4</tspan>
+                        </text>
+                        <text id="5" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="78.2805762" y="135.72">5</tspan>
+                        </text>
+                        <text id="6" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="113.260576" y="135.72">6</tspan>
+                        </text>
+                        <circle id="Oval-4" fill="#9169DB" cx="150.48" cy="133.485" r="11.22"></circle>
+                        <text id="7" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="148.240576" y="135.72">7</tspan>
+                        </text>
+                        <text id="8" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="179.920576" y="135.72">8</tspan>
+                        </text>
+                        <text id="9" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="210.940576" y="135.72">9</tspan>
+                        </text>
+                        <text id="10" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="6.41115234" y="156.84">10</tspan>
+                        </text>
+                        <text id="11" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="41.7317871" y="156.84">11</tspan>
+                        </text>
+                        <text id="12" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="75.7111523" y="156.84">12</tspan>
+                        </text>
+                        <text id="13" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="110.691152" y="156.84">13</tspan>
+                        </text>
+                        <text id="14" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="145.671152" y="156.84">14</tspan>
+                        </text>
+                        <text id="15" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="177.351152" y="156.84">15</tspan>
+                        </text>
+                        <text id="16" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="208.371152" y="156.84">16</tspan>
+                        </text>
+                        <text id="17" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="6.41115234" y="178.62">17</tspan>
+                        </text>
+                        <text id="18" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="41.3911523" y="178.62">18</tspan>
+                        </text>
+                        <text id="19" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="75.7111523" y="178.62">19</tspan>
+                        </text>
+                        <text id="20" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="110.691152" y="178.62">20</tspan>
+                        </text>
+                        <text id="21" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="145.671152" y="178.62">21</tspan>
+                        </text>
+                        <text id="22" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="177.351152" y="178.62">22</tspan>
+                        </text>
+                        <text id="23" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="208.371152" y="178.62">23</tspan>
+                        </text>
+                        <text id="24" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="6.41115234" y="199.74">24</tspan>
+                        </text>
+                        <text id="25" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="41.3911523" y="199.74">25</tspan>
+                        </text>
+                        <text id="26" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="75.7111523" y="199.74">26</tspan>
+                        </text>
+                        <text id="27" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="110.691152" y="199.74">27</tspan>
+                        </text>
+                        <text id="28" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="145.671152" y="199.74">28</tspan>
+                        </text>
+                        <text id="29" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="177.351152" y="199.74">29</tspan>
+                        </text>
+                        <text id="30" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                            <tspan x="208.371152" y="199.74">30</tspan>
+                        </text>
+                        <text font-family="Helvetica" font-size="7.92" font-weight="normal" letter-spacing="1.31999999" fill="#192646">
+                            <tspan x="0" y="8">Start Date</tspan>
+                        </text>
+                        <text id="June,-2018" font-family="Helvetica" font-size="19.8" font-weight="normal" line-spacing="25.08" fill="#192646">
+                            <tspan x="0" y="32.86">June, 2018</tspan>
+                        </text>
+                        <polyline id="Fill-413" fill="#192646" points="216.7506 22.44 215.82 23.3706 218.8428 26.4 215.82 29.4294 216.7506 30.36 220.7106 26.4 216.7506 22.44"></polyline>
+                        <polyline id="Fill-413" fill="#192646" transform="translate(191.205300, 26.400000) scale(-1, 1) translate(-191.205300, -26.400000) " points="189.6906 22.44 188.76 23.3706 191.7828 26.4 188.76 29.4294 189.6906 30.36 193.6506 26.4 189.6906 22.44"></polyline>
+                    </g>
+                    <g id="Activity" transform="translate(29.865000, 14.520000)">
+                        <path d="M90.2826755,6.03659975 L87.7940564,7.08232491 C87.1219819,7.36477849 86.3482023,7.04888344 86.0657877,6.37679256 C86.0657823,6.37677956 86.0657768,6.37676657 86.0658103,6.37673718 L85.445707,4.90088134 C85.1634701,4.22877744 85.4793173,3.45506408 86.1512773,3.17248475 L88.6396575,2.12663097 C89.3116904,1.84407855 90.0854947,2.15991307 90.3679619,2.83198185 C90.3679738,2.83201027 90.3679858,2.8320387 90.3679124,2.83210295 L90.9882369,4.30831891 C91.2706669,4.9804033 90.9547782,5.75418544 90.2826896,6.0366055 C90.2826863,6.03660689 90.282683,6.03660828 90.2826755,6.03659975 Z" id="Fill-30" fill="#E8E2E7" transform="translate(88.216996, 4.604430) rotate(142.000000) translate(-88.216996, -4.604430) "></path>
+                        <text font-family="Helvetica" font-size="7.92" font-weight="normal" letter-spacing="1.31999999" fill="#192646">
+                            <tspan x="0" y="15.92">Activity</tspan>
+                        </text>
+                        <text id="Sequence" font-family="Helvetica" font-size="19.8" font-weight="normal" line-spacing="25.08" fill="#192646">
+                            <tspan x="0" y="40.78">Sequence</tspan>
+                        </text>
+                        <polyline id="Fill-413" fill="#192646" points="216.7506 21.78 215.82 22.7106 218.8428 25.74 215.82 28.7694 216.7506 29.7 220.7106 25.74 216.7506 21.78"></polyline>
+                        <polyline id="Fill-413" fill="#192646" transform="translate(191.205300, 25.740000) scale(-1, 1) translate(-191.205300, -25.740000) " points="189.6906 21.78 188.76 22.7106 191.7828 25.74 188.76 28.7694 189.6906 29.7 193.6506 25.74 189.6906 21.78"></polyline>
+                    </g>
+                </g>
+                <g id="End" transform="translate(301.290000, 227.040000)">
+                    <g id="Rectangle-12">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <line x1="2.35775391" y1="333.3" x2="278.851258" y2="333.3" id="Line-3" stroke="#F8F6FC" stroke-width="3.3" stroke-linecap="square"></line>
+                    <line x1="2.35775391" y1="77.55" x2="278.851258" y2="77.55" id="Line-3" stroke="#F8F6FC" stroke-width="3.3" stroke-linecap="square"></line>
+                    <g id="Calendar" transform="translate(30.520000, 166.320000)">
+                        <g id="Weeks" font-family="Helvetica" font-size="9.24" font-weight="normal" opacity="0.8">
+                            <text id="SUN" fill="#8C8EA1">
+                                <tspan x="0.645664062" y="9">SUN</tspan>
+                            </text>
+                            <text id="MON" fill="#192646">
+                                <tspan x="34.2515039" y="9">MON</tspan>
+                            </text>
+                            <text id="TUE" fill="#192646">
+                                <tspan x="70.77" y="9">TUE</tspan>
+                            </text>
+                            <text id="WED" fill="#192646">
+                                <tspan x="103.551504" y="9">WED</tspan>
+                            </text>
+                            <text id="THU" fill="#192646">
+                                <tspan x="139.815088" y="9">THU</tspan>
+                            </text>
+                            <text id="FRI" fill="#192646">
+                                <tspan x="173.87792" y="9">FRI</tspan>
+                            </text>
+                            <text id="SAT" fill="#8C8EA1">
+                                <tspan x="203.365547" y="9">SAT</tspan>
+                            </text>
+                        </g>
+                        <g id="Dates" transform="translate(3.945000, 40.260000)">
+                            <text id="27" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                                <tspan x="1.29615234" y="9">27</tspan>
+                            </text>
+                            <text id="28" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                                <tspan x="36.1111523" y="9">28</tspan>
+                            </text>
+                            <text id="29" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                                <tspan x="70.4311523" y="9">29</tspan>
+                            </text>
+                            <text id="30" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                                <tspan x="105.411152" y="9">30</tspan>
+                            </text>
+                            <text id="31" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#8C8EA1">
+                                <tspan x="140.391152" y="9">31</tspan>
+                            </text>
+                            <text id="1" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="174.640576" y="9">1</tspan>
+                            </text>
+                            <text id="2" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="205.660576" y="9">2</tspan>
+                            </text>
+                            <text id="3" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="3.70057617" y="30.78">3</tspan>
+                            </text>
+                            <text id="4" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="38.6805762" y="30.78">4</tspan>
+                            </text>
+                            <text id="5" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="73.0005762" y="30.78">5</tspan>
+                            </text>
+                            <text id="6" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="107.980576" y="30.78">6</tspan>
+                            </text>
+                            <text id="7" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="142.960576" y="30.78">7</tspan>
+                            </text>
+                            <text id="8" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="174.640576" y="30.78">8</tspan>
+                            </text>
+                            <text id="9" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="205.660576" y="30.78">9</tspan>
+                            </text>
+                            <text id="10" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="1.13115234" y="51.9">10</tspan>
+                            </text>
+                            <text id="11" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="36.4517871" y="51.9">11</tspan>
+                            </text>
+                            <text id="12" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="70.4311523" y="51.9">12</tspan>
+                            </text>
+                            <text id="13" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="105.411152" y="51.9">13</tspan>
+                            </text>
+                            <text id="14" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="140.391152" y="51.9">14</tspan>
+                            </text>
+                            <text id="15" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="172.071152" y="51.9">15</tspan>
+                            </text>
+                            <text id="16" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="203.091152" y="51.9">16</tspan>
+                            </text>
+                            <text id="17" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="1.13115234" y="73.68">17</tspan>
+                            </text>
+                            <text id="18" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="36.1111523" y="73.68">18</tspan>
+                            </text>
+                            <text id="19" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="70.4311523" y="73.68">19</tspan>
+                            </text>
+                            <text id="20" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="105.411152" y="73.68">20</tspan>
+                            </text>
+                            <text id="21" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="140.391152" y="73.68">21</tspan>
+                            </text>
+                            <text id="22" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="172.071152" y="73.68">22</tspan>
+                            </text>
+                            <circle id="Oval-4" fill="#FFC84A" cx="207.9" cy="70.62" r="11.22"></circle>
+                            <text id="23" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#FEFEFE">
+                                <tspan x="203.091152" y="73.68">23</tspan>
+                            </text>
+                            <text id="24" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="1.13115234" y="94.8">24</tspan>
+                            </text>
+                            <text id="25" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="36.1111523" y="94.8">25</tspan>
+                            </text>
+                            <text id="26" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="70.4311523" y="94.8">26</tspan>
+                            </text>
+                            <text id="27" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="105.411152" y="94.8">27</tspan>
+                            </text>
+                            <text id="28" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="140.391152" y="94.8">28</tspan>
+                            </text>
+                            <text id="29" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="172.071152" y="94.8">29</tspan>
+                            </text>
+                            <text id="30" opacity="0.8" font-family="Helvetica" font-size="9.24" font-weight="normal" fill="#192646">
+                                <tspan x="203.091152" y="94.8">30</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Starat-TIme" transform="translate(29.700000, 362.340000)" fill="#192646">
+                        <text id="End-Time" font-family="Helvetica" font-size="7.92" font-weight="normal" letter-spacing="1.31999999">
+                            <tspan x="0" y="8">End Time</tspan>
+                        </text>
+                        <text id="7:30-PM" font-family="Helvetica" font-size="21.12" font-weight="normal" line-spacing="25.08">
+                            <tspan x="0" y="33.2">7:30 PM</tspan>
+                        </text>
+                        <g id="Arrows" transform="translate(215.820000, 21.450000) rotate(-270.000000) translate(-215.820000, -21.450000) translate(199.650000, 17.490000)">
+                            <polyline id="Fill-413" points="27.9906 0 27.06 0.9306 30.0828 3.96 27.06 6.9894 27.9906 7.92 31.9506 3.96 27.9906 0"></polyline>
+                            <polyline id="Fill-413" transform="translate(2.445300, 3.960000) scale(-1, 1) translate(-2.445300, -3.960000) " points="0.9306 0 -6.16751095e-11 0.9306 3.0228 3.96 -6.16751095e-11 6.9894 0.9306 7.92 4.8906 3.96 0.9306 0"></polyline>
+                        </g>
+                    </g>
+                    <g id="Start-Date" transform="translate(29.700000, 22.440000)" fill="#192646">
+                        <text font-family="Helvetica" font-size="7.92" font-weight="normal" letter-spacing="1.31999999">
+                            <tspan x="0" y="87.2">Start Date</tspan>
+                        </text>
+                        <text id="July,-2018" font-family="Helvetica" font-size="19.8" font-weight="normal" line-spacing="25.08">
+                            <tspan x="0" y="112.06">July, 2018</tspan>
+                        </text>
+                        <polyline id="Fill-413" points="216.7506 101.64 215.82 102.5706 218.8428 105.6 215.82 108.6294 216.7506 109.56 220.7106 105.6 216.7506 101.64"></polyline>
+                        <polyline id="Fill-413" transform="translate(191.205300, 105.600000) scale(-1, 1) translate(-191.205300, -105.600000) " points="189.6906 101.64 188.76 102.5706 191.7828 105.6 188.76 108.6294 189.6906 109.56 193.6506 105.6 189.6906 101.64"></polyline>
+                        <text id="Activity" font-family="Helvetica" font-size="7.92" font-weight="normal" letter-spacing="1.31999999">
+                            <tspan x="0" y="8">Activity</tspan>
+                        </text>
+                        <text id="Sequence" font-family="Helvetica" font-size="19.8" font-weight="normal" line-spacing="25.08">
+                            <tspan x="0" y="32.86">Sequence</tspan>
+                        </text>
+                        <polyline id="Fill-413" points="216.7506 13.86 215.82 14.7906 218.8428 17.82 215.82 20.8494 216.7506 21.78 220.7106 17.82 216.7506 13.86"></polyline>
+                        <polyline id="Fill-413" transform="translate(191.205300, 17.820000) scale(-1, 1) translate(-191.205300, -17.820000) " points="189.6906 13.86 188.76 14.7906 191.7828 17.82 188.76 20.8494 189.6906 21.78 193.6506 17.82 189.6906 13.86"></polyline>
+                    </g>
+                    <text id="Switch-Sequence" font-family="Helvetica" font-size="7.92" font-weight="normal" fill="#FEFEFE">
+                        <tspan x="302.94" y="37.7">SWITCH</tspan>
+                        <tspan x="302.94" y="47.7">SEQUENCE</tspan>
+                    </text>
+                    <text id="Activity-End-time" font-family="Helvetica" font-size="7.92" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="302.94" y="367.22">ACTIVITY</tspan>
+                        <tspan x="302.94" y="377.22">END TIME</tspan>
+                    </text>
+                    <rect id="Rectangle-8-Copy-2" fill="#FFFFFF" x="310.2" y="348" width="4.62" height="4.62" rx="0.66"></rect>
+                    <rect id="Rectangle-8-Copy-3" fill="#FFFFFF" x="302.94" y="348" width="4.62" height="4.62" rx="0.66"></rect>
+                    <rect id="Rectangle-8-Copy-2" fill="#FEFEFE" x="310.2" y="20.46" width="4.62" height="4.62" rx="0.66"></rect>
+                    <rect id="Rectangle-8-Copy-3" fill="#FEFEFE" x="302.94" y="20.46" width="4.62" height="4.62" rx="0.66"></rect>
+                </g>
+                <path d="M286.44,88.11 C304.257852,88.11 314.801846,88.11 318.071982,88.11 C322.977188,88.11 326.0455,91.8888867 326.0455,94.1769727 C326.0455,95.7023633 326.0455,114.706367 326.0455,151.188984" id="Line-5" stroke="#D2D3D4" stroke-width="1.98" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.300000071525574,8.579999685287476"></path>
+                <g id="Dates" transform="translate(235.290000, 64.350000)">
+                    <rect id="Rectangle-Copy" fill="#9169DB" x="0.66" y="0.33" width="44.88" height="49.5" rx="2.31"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFC84A" x="66" y="93.39" width="44.88" height="49.5" rx="2.31"></rect>
+                    <text id="JUN" font-family="Helvetica" font-size="9.9792" font-weight="normal" line-spacing="15.8004" fill="#FFFFFF">
+                        <tspan x="13.7285414" y="18.25">JUN</tspan>
+                    </text>
+                    <text id="JUL" font-family="Helvetica" font-size="9.9792" font-weight="normal" line-spacing="15.8004" fill="#FEFEFE">
+                        <tspan x="79.896893" y="111.31">JUL</tspan>
+                    </text>
+                    <text id="07" font-family="Helvetica" font-size="19.9584" font-weight="normal" line-spacing="15.8004" fill="#FFFFFF">
+                        <tspan x="11.1" y="41.77">07</tspan>
+                    </text>
+                    <text id="23" font-family="Helvetica" font-size="19.9584" font-weight="normal" line-spacing="15.8004" fill="#FEFEFE">
+                        <tspan x="76.44" y="134.83">23</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
