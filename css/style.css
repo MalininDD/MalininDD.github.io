@@ -107,7 +107,6 @@ nav {
 .bg {
   background: url(../img/bg-oriole.jpg) no-repeat center center;
   background-size: cover;
-  height: 150rem;
 }
 .main-about-page {
   margin-top: 24rem;
@@ -242,6 +241,9 @@ nav {
 .features-block-1 img {
   height: 70rem;
 }
+.features-block-2-less {
+  display: none;
+}
 .features-block-2 img {
   height: 70rem;
 }
@@ -279,6 +281,9 @@ nav {
 }
 .portfolio-main-block-1 {
   margin-top: 10rem;
+}
+.portfolio-main-block-1-less {
+  display: none;
 }
 .portfolio-main-block-1-photo {
   margin-top: 5rem;
@@ -556,4 +561,96 @@ nav {
   height: 50rem;
   text-align: center;
   margin-left: 5rem;
+}
+@media (max-width: 1200px) {
+  .main-slider-block-2 img {
+    margin-left: 16rem;
+  }
+  .main-slider-btn-next {
+    margin-left: 26rem;
+  }
+  .main-slider-btn-prev {
+    margin-top: 43.6rem;
+    margin-left: 19rem;
+  }
+  .main-slider_item img {
+    height: 41rem;
+  }
+  .features-block-1 img {
+    height: 55rem;
+  }
+  .features-block-2 img {
+    height: 55rem;
+  }
+  .features-block-3 img {
+    height: 47rem;
+  }
+  .portfolio-header-right img {
+    margin-bottom: 10rem;
+    height: 45rem;
+    margin-top: 45rem;
+  }
+}
+@media (max-width: 992px) {
+  .features h3 {
+    margin-top: 3rem;
+  }
+  .features-block-1 img {
+    margin-bottom: 5rem;
+  }
+  .features-block-2-less {
+    display: block;
+  }
+  .features-block-2-large {
+    display: none;
+  }
+  .features-block-3 {
+    margin-top: 0;
+  }
+  .features-block-3 img {
+    margin-top: 5rem;
+  }
+  .portfolio-header-right img {
+    margin-top: 1rem;
+  }
+  .portfolio-main-block-1-less {
+    display: block;
+  }
+  .portfolio-main-block-1-large {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-oriole-topics a {
+    margin-right: 2rem;
+  }
+  .features-block-1 img {
+    height: 50rem;
+  }
+  .features-block-2 img {
+    height: 48rem;
+  }
+  .features-block-3 img {
+    height: 44rem;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-oriole-topics a {
+    margin-right: 1.4rem;
+  }
+  .features-block-1 img {
+    height: 43rem;
+  }
+  .features-block-2 img {
+    height: 40rem;
+  }
+  .features-block-3 img {
+    height: 38rem;
+  }
+  .main-about-page-right img {
+    height: 40rem;
+  }
+  .main-about-page {
+    margin-top: 2rem;
+  }
 }
