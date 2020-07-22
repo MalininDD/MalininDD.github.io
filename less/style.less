@@ -705,7 +705,27 @@ nav{
 
   }
 }
-
+@media (max-width: 852px){
+  .features{
+    &-block{
+      &-1{
+        img{
+          height: 50rem;
+        }
+      }
+      &-2{
+        img{
+          height: 45rem;
+        }
+      }
+      &-3{
+        img{
+          height: 45rem;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 768px){
   .portfolio-header-right{
     img{
@@ -775,6 +795,22 @@ nav{
   }
 }
 @media (max-width: 500px){
+  .popup{
+    width: 100%;
+    height: 100%;
+  }
+  .popup-close{
+    position: absolute;
+    top:-4.5rem;
+    right:1rem;
+    text-align: center;
+    width: 2rem;
+    border:none;
+    background-color: transparent;/*прозрачный фон*/
+    font-size: 3rem;
+    color:white;
+
+  }
   .navbar-oriole-topics{
     a{
       margin-right: 1rem;
@@ -840,15 +876,26 @@ nav{
 }
 @media (max-width: 445px){
   .navbar-oriole-name{
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   .navbar-right{
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     a{
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   }
+  .portfolio-header-right{
+    img{
+      height: 30rem;
+    }
+  }
+  .main-about-page-right{
+    img{
+      height: 36rem;
+    }
+  }
+
   .footer-main{
     h3{
       margin-top: 28rem;
@@ -857,9 +904,6 @@ nav{
     p{
       font-size: 1.4rem;
     }
-  }
-  .navbar-oriole-name{
-    font-size: 3.5rem;
   }
   .main-page-button{
     width: 100%;
@@ -870,7 +914,7 @@ nav{
   }
   .main-about-page-right{
     img{
-      height: 35rem;
+      height: 32rem;
     }
   }
   .main-slider_item{
@@ -896,27 +940,46 @@ nav{
       }
     }
   }
+
   .features{
     &-block{
       &-1{
         img{
-          height: 33rem;
+          height: 28rem;
         }
       }
       &-2{
         img{
-          height: 30rem;
+          height: 25rem;
         }
       }
       &-3{
         img{
-          height: 28rem;
+          height: 23rem;
         }
       }
     }
   }
 }
 @media (max-width: 375px){
+  .main-slider-block-2{
+    img{
+      margin-left: 10.5rem;
+    }
+  }
+  .main-slider-block-3{
+    img{
+      margin-left: 3rem;
+    }
+  }
+  .main-slider-btn{
+    &-prev{
+      margin-left: 10.5rem;
+    }
+    &-next{
+      margin-left: 18rem;
+    }
+  }
   .main-about-page-left{
     margin-bottom: 6rem;
   }
@@ -974,6 +1037,32 @@ nav{
 }
 
 @media (max-width: 360px){
+  .main-slider-block-2{
+    left:30%;
+  margin-left: 0;
+    img{
+      height: 27rem;
+
+    }
+  }
+  .main-slider-block-2{
+    img{
+      height: 25rem;
+    }
+  }
+  .main-slider-btn{
+    &-prev{
+      margin-left: 10rem;
+    }
+    &-next{
+      margin-left: 18rem;
+    }
+  }
+  .main-about-page-right{
+    img{
+      height: 27rem;
+    }
+  }
   .navbar-oriole-name{
     font-size: 2.6rem;
   }
@@ -991,6 +1080,30 @@ nav{
     }
     p{
       font-size: 1rem;
+    }
+  }
+  .portfolio-header-right{
+    img{
+      height: 25rem;
+    }
+  }
+  .features{
+    &-block{
+      &-1{
+        img{
+          height: 26rem;
+        }
+      }
+      &-2{
+        img{
+          height: 23rem;
+        }
+      }
+      &-3{
+        img{
+          height: 23rem;
+        }
+      }
     }
   }
 }
